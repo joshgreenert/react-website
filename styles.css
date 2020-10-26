@@ -1,34 +1,20 @@
 /* Styles.css */
-h1 {
-    text-align: center;
-}
+/* MAIN ELEMENTS */
 body {
     background-color: lightblue;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
+
+/* CLASSES */
+.container{
     float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
+
+}
+.nameheader{
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
-  .container{
-      float: left;
-  }
+    padding-top: 20px;
+}
+.subheader{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
