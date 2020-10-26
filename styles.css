@@ -7,14 +7,14 @@ body {
 /* CLASSES */
 .container{
     float: left;
-    margin-left: auto;
+    margin-left: 50em;
 }
 .nameheader{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 20em;
 }
 .subheader{
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 20px;
+    padding-top: 5em;
+    padding-bottom: 20em;
 }
