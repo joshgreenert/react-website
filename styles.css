@@ -5,9 +5,13 @@ body {
 }
 
 /* CLASSES */
-.container{
+.container-left{
     float: left;
     margin-left: 10em;
+}
+.container-right{
+    float: right;
+    margin-right: 10em;
 }
 .nameheader{
     text-align: center;
