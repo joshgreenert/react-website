@@ -25,5 +25,5 @@ body {
 
 /* DIVS */
 .container-inner{
-    width: 100em;
+    display: block;
 }
