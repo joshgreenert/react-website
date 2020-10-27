@@ -22,3 +22,8 @@ body {
     padding-top: 1.5em;
     padding-bottom: 3em;
 }
+
+/* DIVS */
+.container-inner{
+    width: 100em;
+}
