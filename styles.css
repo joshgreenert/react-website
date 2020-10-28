@@ -7,11 +7,16 @@ body {
 /* CLASSES */
 .container{
     display: inline-block;
-    margin-left: 10em;
+    margin-left: 10px;
+    width: 1000px;
 }
 .container-right{
-    float: right;
-    margin-right: 10em;
+    display: inline-block
+    margin-right: 10px;
+}
+.container-left{
+    display: inline-block;
+    margin-right: 10px;
 }
 .nameheader{
     text-align: center;
@@ -19,7 +24,7 @@ body {
 }
 .subheader{
     text-align: center;
-    padding-top: 1.5em;
+    padding-top: 1.5px;
     padding-bottom: 3em;
 }
 
