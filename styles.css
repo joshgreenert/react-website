@@ -20,6 +20,10 @@ body {
     display: inline-block;
     margin-left: 10em;
 }
+.container-left img {
+    max-width: 100%;
+    height: auto;
+  }
 .nameheader{
     text-align: center;
     padding-top: 2em;
