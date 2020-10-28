@@ -8,6 +8,7 @@ body {
 .container-left{
     float: left;
     margin-left: 10em;
+    padding-right: 20px;
 }
 .container-right{
     float: right;
