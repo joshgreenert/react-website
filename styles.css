@@ -20,7 +20,7 @@ body {
     display: inline-block;
     margin-left: 10em;
 }
-.container-left img {
+img {
     max-width: 100%;
     height: auto;
   }
