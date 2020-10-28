@@ -14,10 +14,11 @@ body {
     display: inline-block;
     margin-right: 10px;
     width: 100px;
+    padding-bottom: 50px;
 }
 .container-left{
     display: inline-block;
-    margin-right: 10px;
+    margin-left: 10em;
 }
 .nameheader{
     text-align: center;
