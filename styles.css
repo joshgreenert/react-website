@@ -5,9 +5,11 @@ body {
 }
 
 /* CLASSES */
-.container-left{
+.container{
     float: left;
     margin-left: 10em;
+    float: right;
+    margin-right: 10em;
 }
 .container-right{
     float: right;
