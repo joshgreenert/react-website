@@ -3,6 +3,9 @@
 body {
     background-color: lightblue;
 }
+img{
+    border-radius: 50%;
+}
 
 /* CLASSES */
 .container{
@@ -35,7 +38,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(39, 39, 56)(112, 57, 57);
+    background-color: rgb(39, 39, 56);
     color: white;
     text-align: center;
   }
