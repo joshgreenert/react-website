@@ -15,15 +15,12 @@ body {
     margin-right: 10px;
     width: 250px;
     padding-bottom: 50px;
+    padding-left: 20px;
 }
 .container-left{
     display: inline-block;
     margin-left: 10em;
 }
-#dukeandme {
-    max-width: 100%;
-    height: auto;
-  }
 .nameheader{
     text-align: center;
     padding-top: 2em;
@@ -41,7 +38,7 @@ body {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
+    background-color: rgb(59, 59, 189); /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
