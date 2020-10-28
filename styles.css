@@ -6,10 +6,8 @@ body {
 
 /* CLASSES */
 .container{
-    float: left;
+    display: inline-block;
     margin-left: 10em;
-    float: right;
-    margin-right: 10em;
 }
 .container-right{
     float: right;
