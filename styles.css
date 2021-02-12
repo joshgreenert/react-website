@@ -27,11 +27,13 @@ img{
 .nameheader{
     text-align: center;
     padding-top: 2em;
+    color: black;
 }
 .subheader{
     text-align: center;
     padding-top: 1.5px;
     padding-bottom: 3em;
+    color: black;
 }
 .footer {
     position: fixed;
@@ -64,3 +66,28 @@ img{
     background-color: #555; /* Add a dark-grey background on hover */
 }
 
+#header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#header li {
+    float: left;
+    font-size: 30px;
+}
+
+#header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#header li a:hover {
+    background-color: #111;
+}
