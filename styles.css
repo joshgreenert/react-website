@@ -3,9 +3,7 @@
 body {
     background-color: lightblue;
 }
-img{
-    border-radius: 50%;
-}
+
 
 /* CLASSES */
 .container{
@@ -90,4 +88,10 @@ img{
 
 #header li a:hover {
     background-color: #111;
+}
+
+/* CLASS & ID */
+.container .img{
+    display: none;
+    border-radius: 50%;
 }
