@@ -30,6 +30,14 @@ li a:hover {
 }
     </style>
 </head>
+<script>
+  var exec = require('child_process').exec;
+  exec('python -c "import platform; print(platform.python_version())"',
+      function(err, stdout, stderr) {
+    console.dir(stdout.toString());
+  });
+</script>
+
 <body>
 <ul>
     <li><a href="index.html">JoshGreenert.com</a></li>
