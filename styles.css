@@ -2,6 +2,8 @@
 /* MAIN ELEMENTS */
 body {
     background-color: lightblue;
+    font-family: 'Times New Roman';
+    color: black;
 }
 
 
@@ -19,12 +21,14 @@ body {
     text-align: center;
     padding-top: 2em;
     color: black;
+    font-family: 'Garamond';
 }
 .subheader{
     text-align: center;
     padding-top: 1.5px;
     padding-bottom: 3em;
     color: black;
+    font-family: 'Garamond';
 }
 .footer {
     padding-top: 10px;

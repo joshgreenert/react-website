@@ -13,7 +13,7 @@
 }
 
 li {
-  float: right;
+  float: left;
 }
 
 li a {
@@ -30,13 +30,7 @@ li a:hover {
 }
     </style>
 </head>
-<script>
-  var exec = require('child_process').exec;
-  exec('python -c "import platform; print(platform.python_version())"',
-      function(err, stdout, stderr) {
-    console.dir(stdout.toString());
-  });
-</script>
+
 
 <body>
 <ul>
@@ -46,6 +40,7 @@ li a:hover {
     <li><a href="resources.html">Resources</a></li>
   <li><a href="index.html">Home</a></li>
 </ul>
-<iframe src="https://www.google.com" width="200" height="200"></iframe>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeEOvzKrZo3btYwTtoPp4RjL_UHQPmybouGpWYAf_JxDDC8qw/viewform?embedded=true" width="640" height="631" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </body>
 </html>
