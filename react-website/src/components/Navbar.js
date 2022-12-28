@@ -1,23 +1,33 @@
-import React, {useState, ReactDOM} from "react";
+import React, {useState} from "react";
 import {Link} from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { Button } from "./Button";
+import './Navbar.css';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar(){
     const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
+    const [button, setButton] = useState(true);
 
+    const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
-    const element = <FontAwesomeIcon icon={faCoffee} />
-    ReactDOM.render(element, document.body)
+    const showButton = () => {
+        if(window.innerWidth <= 960){
+            setButton(false);
+        } else{
+            setButton(true);
+        }
+    }
+
+    window.addEventListener('resize', showButton);
 
     return (
         <div>
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo">
-                        LOGO LINK <i className="navbar-icon"></i>
+                        Josh Greenert <i className="navbar-icon"></i>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -44,6 +54,7 @@ function Navbar(){
                             </Link>
                         </li>
                     </ul>
+                    {button && <Button buttonStyle='btn--outline'>Sign Up</Button>}
                 </div>
             </nav>
         </div>
