@@ -1,9 +1,7 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import {Link} from 'react-router-dom';
 import { Button } from "./Button";
 import './Navbar.css';
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar(){
     const [click, setClick] = useState(false);
@@ -18,7 +16,11 @@ function Navbar(){
         } else{
             setButton(true);
         }
-    }
+    };
+
+    useEffect(() => {
+        showButton();
+    }, []);
 
     window.addEventListener('resize', showButton);
 
@@ -26,7 +28,7 @@ function Navbar(){
         <div>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         Josh Greenert <i className="navbar-icon"></i>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -39,13 +41,13 @@ function Navbar(){
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/services' className="nav-links" onClick={closeMobileMenu}>
-                                Services
+                            <Link to='/github' className="nav-links" onClick={closeMobileMenu}>
+                                GitHub
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/portfolio' className="nav-links" onClick={closeMobileMenu}>
-                                Portfolio
+                            <Link to='/resume' className="nav-links" onClick={closeMobileMenu}>
+                                Resume
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -54,7 +56,7 @@ function Navbar(){
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Sign Up</Button>}
+                    {button && <Button buttonStyle='btn--outline'>Contact</Button>}
                 </div>
             </nav>
         </div>
