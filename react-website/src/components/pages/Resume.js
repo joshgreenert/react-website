@@ -1,6 +1,12 @@
 import React from 'react';
+import ResumeComponent from '../ResumeComponent';
 import '../../App.css';
 
-export default function Resume() {
-  return <h1 className='Resume'>Resume</h1>;
+function Resume() {
+  return (
+    <div>
+      <ResumeComponent/>
+    </div>
+  );
 }
+export default Resume;

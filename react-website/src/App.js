@@ -16,10 +16,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home/>}/>
-          <Route path="/" exact element={<GitHub/>}/>
-          <Route path="/" exact element={<Resume/>}/>
-          <Route path="/" exact element={<Resources/>}/>
-          <Route path="/" exact element={<Contact/>}/>
+          <Route path="/github/" exact element={<GitHub/>}/>
+          <Route path="/resume/" exact element={<Resume/>}/>
+          <Route path="/resources/" exact element={<Resources/>}/>
+          <Route path="/contact/" exact element={<Contact/>}/>
         </Routes>
 
       </Router>

@@ -7,7 +7,6 @@ video {
 }
 
 .hero-container {
-/*background: url('../images/img-home.jpg') center center/cover no-repeat;*/
 height: 100vh;
 width: 100%;
 display: flex;
@@ -23,6 +22,10 @@ color: #fff;
 font-size: 100px;
 margin-top: -100px;
 }
+
+.hero-container > h2 {
+    color: #fff;
+    }
 
 .hero-container > p {
 margin-top: 8px;
@@ -43,30 +46,36 @@ margin: 6px;
 .fa-play-circle {
 margin-left: 4px;
 }
+.heroImage{
+    height: "100%";
+    width: "100%";
+    z-index: -999;
+    position:absolute;
+}
 
+/* Mobile Media Queries */
 @media screen and (max-width: 960px) {
-.hero-container > h1 {
-    font-size: 70px;
-    margin-top: -150px;
+    .hero-container > h1 {
+        font-size: 70px;
+        margin-top: -150px;
+    }
 }
-}
-
+    
 @media screen and (max-width: 768px) {
-.hero-container > h1 {
-    font-size: 50px;
-    margin-top: -100px;
-}
-
-.hero-container > p {
-    font-size: 30px;
-}
-
-.btn-mobile {
-    display: block;
-    text-decoration: none;
-}
-
-.btn {
-    width: 100%;
-}
+    .hero-container > h1 {
+        font-size: 50px;
+    }
+    
+    .hero-container > p {
+        font-size: 30px;
+    }
+    
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+    
+    .btn {
+        width: 100%;
+    }
 }
