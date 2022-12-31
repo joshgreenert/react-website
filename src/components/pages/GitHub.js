@@ -13,19 +13,24 @@ export default function GitHub() {
       </div>
       <div className="githubPage">
         <div>
-          <Button buttonStyle="btn--outline" buttonSize="btn--large">Python Projects</Button>
+          <Button buttonStyle="btn--outline" buttonSize="btn--large"
+            location="https://github.com/joshgreenert/Python-Projects">Python Projects</Button>
         </div>
         <div>
-          <Button buttonStyle="btn--outline" buttonSize="btn--large">Java Projects</Button>
+          <Button buttonStyle="btn--outline" buttonSize="btn--large"
+            location="https://github.com/joshgreenert/Java-Projects">Java Projects</Button>
         </div>
         <div>
-          <Button buttonStyle="btn--outline" buttonSize="btn--large">GAS Projects</Button>
+          <Button buttonStyle="btn--outline" buttonSize="btn--large"
+            location="https://github.com/joshgreenert/GAS-Projects">GAS Projects</Button>
         </div>
         <div>
-          <Button buttonStyle="btn--outline" buttonSize="btn--large">R Projects</Button>
+          <Button buttonStyle="btn--outline" buttonSize="btn--large"
+            location="https://github.com/joshgreenert/R-Projects">R Projects</Button>
         </div>
         <div>
-          <Button buttonStyle="btn--outline" buttonSize="btn--large">PHP Projects</Button>
+          <Button buttonStyle="btn--outline" buttonSize="btn--large"
+            location="https://github.com/joshgreenert/PHP-Projects">PHP Projects</Button>
         </div>
       </div>
     </div>

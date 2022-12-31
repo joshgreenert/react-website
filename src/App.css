@@ -17,6 +17,7 @@
 .githubHeading{
   text-align: center;
   display: flex;
+  padding-top: 20px;
   width: 100%;
   color: #fff;
   justify-content: center;
