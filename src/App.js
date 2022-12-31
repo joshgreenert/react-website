@@ -5,6 +5,7 @@ import GitHub from './components/pages/GitHub';
 import Resume from './components/pages/Resume';
 import Resources from './components/pages/Resources';
 import Contact from './components/pages/Contact';
+
 import { BrowserRouter as Router, Routes , Route} from 'react-router-dom';
 
 import './App.css';

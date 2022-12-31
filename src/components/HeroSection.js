@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "./Button";
-import homeImage from "./images/img-home.jpg";
-import TextConstants from "./constants/TextConstants";
+import homeImage from "./images/home.jpg";
+import TextConstants from "./constants/HomeConstants";
 import './HeroSection.css';
 
 function HeroSection(){
