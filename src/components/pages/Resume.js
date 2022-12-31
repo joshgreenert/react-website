@@ -1,12 +1,15 @@
 import React from 'react';
-import ResumeComponent from '../ResumeComponent';
+import PDF from "../pdfs/Resume.pdf";
 import '../../App.css';
 
 function Resume() {
   return (
-    <div>
-      <ResumeComponent/>
-    </div>
+      <embed
+        src={PDF}
+        type="application/pdf"
+        height={950}
+        width="100%"
+      />
   );
 }
 export default Resume;
