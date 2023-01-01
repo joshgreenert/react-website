@@ -14,6 +14,7 @@ export default function Contact() {
     </div>
     <div className='contactPage'>
       <iframe src={ContactConstants.CONTACT_FORM_URL} 
+        title="Contact Form"
         width="640" 
         height="750" 
         frameborder="0" 
