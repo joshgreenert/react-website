@@ -14,6 +14,15 @@
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
 }
+.contactPage{
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
 .githubHeading{
   text-align: center;
   display: flex;
@@ -23,12 +32,35 @@
   justify-content: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
 }
-
+.contactHeading{
+  text-align: center;
+  display: flex;
+  padding-top: 20px;
+  width: 100%;
+  color: #000000;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+.resourceHeading{
+  text-align: center;
+  display: flex;
+  padding-top: 40px;
+  width: 100%;
+  color: #fff;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
 .githubImage{
   height: 100%;
   width: 100%;
   z-index: -999;
   position:absolute;
   clip-path: circle(50%);
+}
+.resourceImage{
+  height: 30%;
+  width: 100%;
+  z-index: -999;
+  position:absolute;
 }
 
