@@ -16,11 +16,11 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home/>}/>
-          <Route path="/github/" exact element={<GitHub/>}/>
-          <Route path="/resume/" exact element={<Resume/>}/>
-          <Route path="/resources/" exact element={<Resources/>}/>
-          <Route path="/contact/" exact element={<Contact/>}/>
+          <Route path="/react-website/" exact element={<Home/>}/>
+          <Route path="/react-website/github/" exact element={<GitHub/>}/>
+          <Route path="/react-website/resume/" exact element={<Resume/>}/>
+          <Route path="/react-website/resources/" exact element={<Resources/>}/>
+          <Route path="/react-website/contact/" exact element={<Contact/>}/>
         </Routes>
 
       </Router>
