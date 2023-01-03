@@ -15,7 +15,7 @@ function HeroSection(){
                 <h2>{HomeConstants.HOME_SUBLABEL}</h2>
                 <div className="hero-btns">
                     <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large"
-                        location="/contact">
+                        location="/react-website/contact">
                         Contact
                     </Button>
                 </div>

@@ -28,7 +28,7 @@ function Navbar(){
         <div>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                    <Link to="/react-website/" className="navbar-logo" onClick={closeMobileMenu}>
                         LOGO
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -36,27 +36,27 @@ function Navbar(){
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
-                            <Link to='/' className="nav-links" onClick={closeMobileMenu}>
+                            <Link to='/react-website/' className="nav-links" onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/github' className="nav-links" onClick={closeMobileMenu}>
+                            <Link to='/react-website/github' className="nav-links" onClick={closeMobileMenu}>
                                 GitHub
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/resume' className="nav-links" onClick={closeMobileMenu}>
+                            <Link to='/react-website/resume' className="nav-links" onClick={closeMobileMenu}>
                                 Resume
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/resources' className="nav-links" onClick={closeMobileMenu}>
+                            <Link to='/react-website/resources' className="nav-links" onClick={closeMobileMenu}>
                                 Resources
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline' location="/contact">Contact</Button>}
+                    {button && <Button buttonStyle='btn--outline' location="/react-website/contact">Contact</Button>}
                 </div>
             </nav>
         </div>
