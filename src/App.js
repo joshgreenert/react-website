@@ -8,19 +8,17 @@ import Contact from './components/pages/Contact';
 import { BrowserRouter as Router, Routes , Route} from 'react-router-dom';
 import './App.css';
 
-const BASE_PATH = '/react-website/';
-
 function App() {
   return (
     <div className='App'>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
-          <Route path={`${BASE_PATH}`} element={<Home />} />
-          <Route path={`${BASE_PATH}github/`} element={<GitHub />} />
-          <Route path={`${BASE_PATH}resume/`} element={<Resume />} />
-          <Route path={`${BASE_PATH}resources/`} element={<Resources />} />
-          <Route path={`${BASE_PATH}contact/`} element={<Contact />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/github/' element={<GitHub />} />
+          <Route path='/resume/' element={<Resume />} />
+          <Route path='/resources/' element={<Resources />} />
+          <Route path='/contact/' element={<Contact />} />
         </Routes>
       </Router>
     </div>
