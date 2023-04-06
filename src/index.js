@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import App from './App';
 
 const UnloadPrompt = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleUnload = (event) => {
@@ -14,7 +14,7 @@ const UnloadPrompt = () => {
       event.returnValue = '';
 
       // Save the current location in local storage.
-      localStorage.setItem('unloadLocation', history.location.pathname);
+      localStorage.setItem('unloadLocation', navigate.location.pathname);
     };
 
     window.addEventListener('beforeunload', handleUnload);
@@ -23,7 +23,7 @@ const UnloadPrompt = () => {
     return () => {
       window.removeEventListener('beforeunload', handleUnload);
     };
-  }, [history]);
+  }, [navigate]);
 
   return <App />;
 };
