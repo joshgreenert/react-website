@@ -5,10 +5,10 @@ import GitHub from './components/pages/GitHub';
 import Resume from './components/pages/Resume';
 import Resources from './components/pages/Resources';
 import Contact from './components/pages/Contact';
-
 import { BrowserRouter as Router, Routes , Route} from 'react-router-dom';
-
 import './App.css';
+
+const BASE_PATH = '/react-website/';
 
 function App() {
   return (
@@ -16,13 +16,12 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/react-website/" exact element={<Home/>}/>
-          <Route path="/react-website/github/" exact element={<GitHub/>}/>
-          <Route path="/react-website/resume/" exact element={<Resume/>}/>
-          <Route path="/react-website/resources/" exact element={<Resources/>}/>
-          <Route path="/react-website/contact/" exact element={<Contact/>}/>
+          <Route path={`${BASE_PATH}`} element={<Home />} />
+          <Route path={`${BASE_PATH}github/`} element={<GitHub />} />
+          <Route path={`${BASE_PATH}resume/`} element={<Resume />} />
+          <Route path={`${BASE_PATH}resources/`} element={<Resources />} />
+          <Route path={`${BASE_PATH}contact/`} element={<Contact />} />
         </Routes>
-
       </Router>
     </div>
   );

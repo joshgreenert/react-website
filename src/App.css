@@ -64,3 +64,40 @@
   position:absolute;
 }
 
+.resourceHeading h1 {
+  font-size: 3rem;
+  color: #333;
+  margin: 0;
+}
+
+.resourcePage {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.resourcePage h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.resourcePage ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resourcePage li {
+  margin-bottom: 10px;
+}
+
+.resourcePage li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.resourcePage li a:hover {
+  text-decoration: underline;
+}
