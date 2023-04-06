@@ -1,8 +1,11 @@
 import React from 'react';
+import { useNavigation } from 'react-router-dom';
 import resourceImage from "../images/keyboardHeader.jpg";
 import '../../App.css';
 
 export default function Resources() {
+  const navigation = useNavigation();
+
   return (
     <div>
       <img src={resourceImage} alt="resources" className="resourceImage"/>
@@ -17,9 +20,6 @@ export default function Resources() {
           <li><a href='https://owl.english.purdue.edu/owl/'>https://owl.english.purdue.edu/owl/</a> - MLA and APA reference guide</li>
           <li><a href='http://www.fakenamegenerator.com/'>http://www.fakenamegenerator.com/</a> - Fake name creator</li>
           <li><a href='http://www.paperrater.com/free_paper_grader'>http://www.paperrater.com/free_paper_grader</a> - Paper evaluation to catch errors</li>
-          <li><a href="https://www.grammarly.com/">Grammarly</a></li>
-          <li><a href="https://www.hemingwayapp.com/">Hemingway</a></li>
-          <li><a href="https://www.slickwrite.com/">Slick Write</a></li>
         </ul>
 
         <h2>Coding and Development</h2>

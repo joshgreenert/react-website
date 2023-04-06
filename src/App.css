@@ -64,16 +64,11 @@
   position:absolute;
 }
 
-.resourceHeading h1 {
-  font-size: 3rem;
-  color: #333;
-  margin: 0;
-}
-
 .resourcePage {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  margin-top: 125px;
 }
 
 .resourcePage h2 {
