@@ -1,10 +1,8 @@
 import React from 'react';
-import { useNavigation } from 'react-router-dom';
 import resourceImage from "../images/keyboardHeader.jpg";
 import '../../App.css';
 
 export default function Resources() {
-  const navigation = useNavigation();
 
   return (
     <div>
