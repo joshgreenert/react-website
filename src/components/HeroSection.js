@@ -3,8 +3,11 @@ import { Button } from "./Button";
 import homeImage from "./images/home.jpg";
 import HomeConstants from "./constants/HomeConstants";
 import './HeroSection.css';
+import { useNavigate } from "react-router-dom";
 
 function HeroSection(){
+    const navigate = useNavigate();
+
     return (
         <div>
             <div>
@@ -15,7 +18,7 @@ function HeroSection(){
                 <h2>{HomeConstants.HOME_SUBLABEL}</h2>
                 <div className="hero-btns">
                     <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large"
-                        location="/react-website/contact">
+                        onClick={() => navigate('/react-website/contact')}>
                         Contact
                     </Button>
                 </div>
