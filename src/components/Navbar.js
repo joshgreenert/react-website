@@ -27,7 +27,7 @@ function Navbar(){
         <div>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/react-website/" className="navbar-logo" onClick={closeMobileMenu}>
+                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                         LOGO
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -35,23 +35,28 @@ function Navbar(){
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
-                            <Link to='/react-website/' className="nav-links" onClick={closeMobileMenu}>
+                            <Link to='/' className="nav-links" onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/react-website/github' className="nav-links" onClick={closeMobileMenu}>
+                            <Link to='/github/' className="nav-links" onClick={closeMobileMenu}>
                                 GitHub
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/react-website/resume' className="nav-links" onClick={closeMobileMenu}>
+                            <Link to='/resume/' className="nav-links" onClick={closeMobileMenu}>
                                 Resume
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/react-website/resources' className="nav-links" onClick={closeMobileMenu}>
+                            <Link to='/resources/' className="nav-links" onClick={closeMobileMenu}>
                                 Resources
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/contact/' className="nav-links" onClick={closeMobileMenu}>
+                                Contact
                             </Link>
                         </li>
                     </ul>
