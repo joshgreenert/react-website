@@ -13,9 +13,6 @@ function HeroSection(){
             <div className="hero-container">
                 <h1>{HomeConstants.HOME_HEADING}</h1>
                 <h2>{HomeConstants.HOME_SUBLABEL}</h2>
-                <br />
-                <h2>{HomeConstants.ABOUT_ME}</h2>
-                <p>{HomeConstants.PARAGRAPH}</p>
             </div>
         </div>
     )
