@@ -3,9 +3,14 @@ import { Button } from "./Button";
 import homeImage from "./images/home.jpg";
 import HomeConstants from "./constants/HomeConstants";
 import './HeroSection.css';
-import { Link } from "react-router-dom";
+import { useHistory } from 'react-router-dom';
 
 function HeroSection(props){
+    const history = useHistory();
+
+    const handleContactClick = () => {
+        history.push('/contact');
+    };
 
     return (
         <div>
@@ -16,17 +21,16 @@ function HeroSection(props){
                 <h1>{HomeConstants.HOME_HEADING}</h1>
                 <h2>{HomeConstants.HOME_SUBLABEL}</h2>
                 <div className="hero-btns">
-                {props.button && (
-                    <Link to="/contact" className="btn-mobile">
+                    {props.button && (
                         <Button
                         className="btns"
                         buttonStyle="btn--outline"
                         buttonSize="btn--large"
+                        onClick={handleContactClick}
                         >
                         {props.buttonLabel}
                         </Button>
-                    </Link>
-                )}
+                    )}
                 </div>
             </div>
         </div>
