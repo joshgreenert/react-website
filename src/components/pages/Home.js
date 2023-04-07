@@ -10,7 +10,7 @@ import HeroSection from "../HeroSection";
 function Home(){
     return (
         <div>
-            <HeroSection button buttonLabel="CONTACT ME" />
+            <HeroSection button buttonLabel="Contact Me" />
         </div>
     )
 }
