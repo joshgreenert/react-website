@@ -3,13 +3,13 @@ import { Button } from "./Button";
 import homeImage from "./images/home.jpg";
 import HomeConstants from "./constants/HomeConstants";
 import './HeroSection.css';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function HeroSection(props){
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const handleContactClick = () => {
-        history.push('/contact');
+        navigate('/contact');
     };
 
     return (
