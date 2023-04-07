@@ -16,17 +16,17 @@ function HeroSection(){
                 <h1>{HomeConstants.HOME_HEADING}</h1>
                 <h2>{HomeConstants.HOME_SUBLABEL}</h2>
                 <div className="hero-btns">
-                {button && (
+                {props.button && (
                     <Link to="/contact" className="btn-mobile">
                         <Button
                         className="btns"
                         buttonStyle="btn--outline"
                         buttonSize="btn--large"
                         >
-                        {buttonLabel}
+                        {props.buttonLabel}
                         </Button>
                     </Link>
-                    )}
+                )}
                 </div>
             </div>
         </div>
