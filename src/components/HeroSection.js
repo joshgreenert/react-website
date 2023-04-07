@@ -5,7 +5,7 @@ import HomeConstants from "./constants/HomeConstants";
 import './HeroSection.css';
 import { Link } from "react-router-dom";
 
-function HeroSection(){
+function HeroSection(props){
 
     return (
         <div>
