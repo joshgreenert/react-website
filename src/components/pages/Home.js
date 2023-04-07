@@ -4,8 +4,9 @@
  */
 
 import React from "react";
-import '../../App.css';
 import HeroSection from "../HeroSection";
+import { withRouter } from "react-router-dom";
+import '../../App.css';
 
 function Home(){
     return (
@@ -15,4 +16,4 @@ function Home(){
     )
 }
 
-export default Home;
+export default withRouter(Home);

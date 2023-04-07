@@ -7,7 +7,7 @@ import './HeroSection.css';
 function HeroSection(props){
 
     const handleContactClick = () => {
-        window.location.href = `${process.env.PUBLIC_URL}/contact`;
+        props.history.push('/contact');
     };
 
     return (
