@@ -60,7 +60,6 @@ function Navbar(){
                             </NavLink>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline' location="/react-website/contact">Contact</Button>}
                 </div>
             </nav>
         </div>
