@@ -5,15 +5,14 @@
 
 import React from "react";
 import HeroSection from "../HeroSection";
-import { withRouter } from "react-router-dom";
 import '../../App.css';
 
 function Home(){
     return (
         <div>
-            <HeroSection button buttonLabel="Contact Me" />
+            <HeroSection />
         </div>
     )
 }
 
-export default withRouter(Home);
+export default Home;

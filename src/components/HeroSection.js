@@ -1,14 +1,9 @@
 import React from "react";
-import { Button } from "./Button";
 import homeImage from "./images/home.jpg";
 import HomeConstants from "./constants/HomeConstants";
 import './HeroSection.css';
 
-function HeroSection(props){
-
-    const handleContactClick = () => {
-        props.history.push('/contact');
-    };
+function HeroSection(){
 
     return (
         <div>
@@ -18,18 +13,6 @@ function HeroSection(props){
             <div className="hero-container">
                 <h1>{HomeConstants.HOME_HEADING}</h1>
                 <h2>{HomeConstants.HOME_SUBLABEL}</h2>
-                <div className="hero-btns">
-                    {props.button && (
-                        <Button
-                        className="btns"
-                        buttonStyle="btn--outline"
-                        buttonSize="btn--large"
-                        onClick={handleContactClick}
-                        >
-                        {props.buttonLabel}
-                        </Button>
-                    )}
-                </div>
             </div>
         </div>
     )
