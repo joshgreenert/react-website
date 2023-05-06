@@ -15,9 +15,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path='/github/' element={<GitHub />} />
+          <Route path='/work-projects/' element={<GitHub />} />
           <Route path='/resume/' element={<Resume />} />
-          <Route path='/resources/' element={<Resources />} />
+          <Route path='/about/' element={<Resources />} />
           <Route path='/contact/' element={<Contact />} />
         </Routes>
       </Router>

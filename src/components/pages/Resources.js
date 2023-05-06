@@ -1,5 +1,6 @@
 import React from 'react';
 import resourceImage from "../images/keyboardHeader.jpg";
+import professionalPhoto from "../images/professionalPhoto.jpg";
 import '../../App.css';
 
 export default function Resources() {
@@ -8,19 +9,21 @@ export default function Resources() {
     <div>
       <img src={resourceImage} alt="resources" className="resourceImage"/>
       <div className='resourceHeading'>
-        <h1>Resources</h1>
+        <h1>About Me</h1>
       </div>
       <div className='resourcePage'>
-        <h2>Writing and Typing</h2>
-        <ul>
-          <li><a href='http://www.keybr.com/'>http://www.keybr.com/</a> - Typing enhancer</li>
-          <li><a href='https://www.typing.com/typinggames'>https://www.typing.com/typinggames</a> - Typing enhancer</li>
-          <li><a href='https://owl.english.purdue.edu/owl/'>https://owl.english.purdue.edu/owl/</a> - MLA and APA reference guide</li>
-          <li><a href='http://www.fakenamegenerator.com/'>http://www.fakenamegenerator.com/</a> - Fake name creator</li>
-          <li><a href='http://www.paperrater.com/free_paper_grader'>http://www.paperrater.com/free_paper_grader</a> - Paper evaluation to catch errors</li>
-        </ul>
+        <img src={professionalPhoto} alt="professional" className="professionalPhoto"/>
+        <p>
+        Hi there! I'm a full stack software engineer with over 7 years of experience in web development. 
+        I'm passionate about building robust and scalable applications using the latest technologies and 
+        frameworks. Throughout my career, I've worked on a variety of projects ranging from e-commerce 
+        platforms to social media applications, and have gained expertise in front-end development, back-end 
+        development, and database management. I'm always on the lookout for new challenges and opportunities 
+        to learn and grow as a developer. When I'm not coding, you can find me hiking in the mountains or 
+        experimenting with new recipes in the kitchen.
+        </p>
 
-        <h2>Coding and Development</h2>
+        <h2>Useful Coding and Development Resources</h2>
         <ul>
           <li><a href="https://www.khanacademy.org/">Khan Academy</a> - Free courses for various topics</li>
           <li><a href="https://dotnetfiddle.net/">.NET Fiddle</a> - Free online compiler for C#</li>

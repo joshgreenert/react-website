@@ -9,7 +9,16 @@ export default function GitHub() {
     <div>
       <img src={githubImage} alt="github" className="githubImage"/>
       <div className="githubHeading">
-        <h1>GitHub Repos</h1>
+        <h1>Work / Projects</h1>
+      </div>
+      <div className="githubPage">
+        <div>
+          <Button buttonStyle="btn--outline" buttonSize="btn--large"
+            location="https://github.com/joshgreenert/Portfolio">Portfolio Projects</Button>
+        </div>
+      </div>
+      <div className="githubHeading">
+        <h1>Additional Repositories</h1>
       </div>
       <div className="githubPage">
         <div>

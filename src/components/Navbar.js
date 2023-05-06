@@ -26,7 +26,7 @@ function Navbar(){
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/github/' className="nav-links" onClick={closeMobileMenu}>
+                            <NavLink to='/work-projects/' className="nav-links" onClick={closeMobileMenu}>
                                 GitHub
                             </NavLink>
                         </li>
@@ -36,7 +36,7 @@ function Navbar(){
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/resources/' className="nav-links" onClick={closeMobileMenu}>
+                            <NavLink to='/about/' className="nav-links" onClick={closeMobileMenu}>
                                 Resources
                             </NavLink>
                         </li>
