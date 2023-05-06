@@ -44,6 +44,15 @@
 .resourceHeading{
   text-align: center;
   display: flex;
+  padding-top: 40px;
+  width: 100%;
+  color: #fff;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+.resourceHeading2{
+  text-align: center;
+  display: flex;
   margin-top: 70px;
   width: 100%;
   color: #fff;
