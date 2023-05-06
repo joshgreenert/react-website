@@ -17,31 +17,6 @@ export default function GitHub() {
             location="https://github.com/joshgreenert/Portfolio">Portfolio Projects</Button>
         </div>
       </div>
-      <div className="githubHeading">
-        <h1>Additional Repositories</h1>
-      </div>
-      <div className="githubPage">
-        <div>
-          <Button buttonStyle="btn--outline" buttonSize="btn--large"
-            location="https://github.com/joshgreenert/Python-Projects">Python Projects</Button>
-        </div>
-        <div>
-          <Button buttonStyle="btn--outline" buttonSize="btn--large"
-            location="https://github.com/joshgreenert/Java-Projects">Java Projects</Button>
-        </div>
-        <div>
-          <Button buttonStyle="btn--outline" buttonSize="btn--large"
-            location="https://github.com/joshgreenert/GAS-Projects">GAS Projects</Button>
-        </div>
-        <div>
-          <Button buttonStyle="btn--outline" buttonSize="btn--large"
-            location="https://github.com/joshgreenert/R-Projects">R Projects</Button>
-        </div>
-        <div>
-          <Button buttonStyle="btn--outline" buttonSize="btn--large"
-            location="https://github.com/joshgreenert/PHP-Projects">PHP Projects</Button>
-        </div>
-      </div>
     </div>
   );
 }

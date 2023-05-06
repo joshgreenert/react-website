@@ -64,6 +64,17 @@
   position:absolute;
 }
 
+.professionalPhoto{
+  height: 300px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+}
+
 .resourcePage {
   max-width: 800px;
   margin: 0 auto;
@@ -95,4 +106,14 @@
 
 .resourcePage li a:hover {
   text-decoration: underline;
+}
+
+.aboutMe{
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 1em;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  padding: 10px;
 }
