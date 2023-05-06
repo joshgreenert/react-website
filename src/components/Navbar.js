@@ -26,8 +26,8 @@ function Navbar(){
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/work-projects/' className="nav-links" onClick={closeMobileMenu}>
-                                Work Projects
+                            <NavLink to='/about/' className="nav-links" onClick={closeMobileMenu}>
+                                About
                             </NavLink>
                         </li>
                         <li className="nav-item">
@@ -36,8 +36,8 @@ function Navbar(){
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to='/about/' className="nav-links" onClick={closeMobileMenu}>
-                                About
+                            <NavLink to='/work-projects/' className="nav-links" onClick={closeMobileMenu}>
+                                Work Projects
                             </NavLink>
                         </li>
                         <li className="nav-item">
