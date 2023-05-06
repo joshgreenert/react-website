@@ -1,6 +1,6 @@
 import React from 'react';
 import resourceImage from "../images/keyboardHeader.jpg";
-import professionalPhoto from "../images/professionalPhoto.jpg";
+import professionalPhoto from "../images/professional.jpg";
 import '../../App.css';
 
 export default function Resources() {
