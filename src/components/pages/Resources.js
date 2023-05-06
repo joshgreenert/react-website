@@ -23,7 +23,7 @@ export default function Resources() {
         experimenting with new recipes in the kitchen.
         </p>
 
-        <h2>Useful Coding and Development Resources</h2>
+        <h2 className='resourceHeading'>Useful Coding and Development Resources</h2>
         <p className="aboutMe">Below are some resources that I've found helpful throughout my career.  </p>
         <table>
           <tr>

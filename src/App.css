@@ -44,7 +44,7 @@
 .resourceHeading{
   text-align: center;
   display: flex;
-  padding-top: 40px;
+  margin-top: 70px;
   width: 100%;
   color: #fff;
   justify-content: center;
@@ -116,4 +116,38 @@
   color: #333;
   text-align: center;
   padding: 10px;
+}
+
+/* Table CSS */ 
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+table th {
+  background-color: #dfe6e9;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+
+table td {
+  border: 1px solid #dfe6e9;
+  padding: 10px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+table a:hover {
+  color: #2980b9;
+  text-decoration: underline;
 }
