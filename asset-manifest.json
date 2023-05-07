@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/react-website/static/css/main.a2dbe94e.css",
-    "main.js": "/react-website/static/js/main.5ac08f38.js",
+    "main.js": "/react-website/static/js/main.0906068a.js",
     "static/media/home.jpg": "/react-website/static/media/home.c034239ee9a63564602b.jpg",
     "static/media/professional.jpg": "/react-website/static/media/professional.802436ee2c3081190e73.jpg",
     "static/media/keyboardHeader.jpg": "/react-website/static/media/keyboardHeader.f784030dc6c95e5bfe9d.jpg",
     "static/media/Resume.pdf": "/react-website/static/media/Resume.e84f9d653e9a2afac863.pdf",
-    "static/media/rock.png": "/react-website/static/media/rock.994a2decb914f30a39d8.png",
     "static/media/github.webp": "/react-website/static/media/github.d6f7b64edebf1c7954b2.webp",
     "index.html": "/react-website/index.html",
     "main.a2dbe94e.css.map": "/react-website/static/css/main.a2dbe94e.css.map",
-    "main.5ac08f38.js.map": "/react-website/static/js/main.5ac08f38.js.map"
+    "main.0906068a.js.map": "/react-website/static/js/main.0906068a.js.map"
   },
   "entrypoints": [
     "static/css/main.a2dbe94e.css",
-    "static/js/main.5ac08f38.js"
+    "static/js/main.0906068a.js"
   ]
 }
