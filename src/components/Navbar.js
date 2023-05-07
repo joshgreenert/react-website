@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import {NavLink} from 'react-router-dom';
-import logo from './images/biohazardLogo.png';
 import newLogo from './images/rock.png';
 import './Navbar.css';
 
