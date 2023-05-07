@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {NavLink} from 'react-router-dom';
 import logo from './images/biohazardLogo.png';
+import newLogo from './images/rock.png';
 import './Navbar.css';
 
 function Navbar(){
@@ -14,7 +15,7 @@ function Navbar(){
             <nav className="navbar">
                 <div className="navbar-container">
                     <NavLink  to="/" className="navbar-logo" exact onClick={closeMobileMenu}>
-                        <img src={logo} alt="Biohazard Logo" className="navbar-logo-image" />
+                        <img src={newLogo} alt="Biohazard Logo" className="navbar-logo-image" />
                     </NavLink >
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
