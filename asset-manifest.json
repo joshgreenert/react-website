@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a2dbe94e.css",
-    "main.js": "/static/js/main.974d5dd5.js",
-    "static/media/home.jpg": "/static/media/home.c034239ee9a63564602b.jpg",
-    "static/media/professional.jpg": "/static/media/professional.802436ee2c3081190e73.jpg",
-    "static/media/keyboardHeader.jpg": "/static/media/keyboardHeader.f784030dc6c95e5bfe9d.jpg",
-    "static/media/Resume.pdf": "/static/media/Resume.e84f9d653e9a2afac863.pdf",
-    "static/media/github.webp": "/static/media/github.d6f7b64edebf1c7954b2.webp",
-    "index.html": "/index.html",
-    "main.a2dbe94e.css.map": "/static/css/main.a2dbe94e.css.map",
-    "main.974d5dd5.js.map": "/static/js/main.974d5dd5.js.map"
+    "main.css": "/react-website/static/css/main.a2dbe94e.css",
+    "main.js": "/react-website/static/js/main.29cc4561.js",
+    "static/media/home.jpg": "/react-website/static/media/home.c034239ee9a63564602b.jpg",
+    "static/media/professional.jpg": "/react-website/static/media/professional.802436ee2c3081190e73.jpg",
+    "static/media/keyboardHeader.jpg": "/react-website/static/media/keyboardHeader.f784030dc6c95e5bfe9d.jpg",
+    "static/media/Resume.pdf": "/react-website/static/media/Resume.e84f9d653e9a2afac863.pdf",
+    "static/media/github.webp": "/react-website/static/media/github.d6f7b64edebf1c7954b2.webp",
+    "index.html": "/react-website/index.html",
+    "main.a2dbe94e.css.map": "/react-website/static/css/main.a2dbe94e.css.map",
+    "main.29cc4561.js.map": "/react-website/static/js/main.29cc4561.js.map"
   },
   "entrypoints": [
     "static/css/main.a2dbe94e.css",
-    "static/js/main.974d5dd5.js"
+    "static/js/main.29cc4561.js"
   ]
 }
