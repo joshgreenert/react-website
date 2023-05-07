@@ -19,7 +19,7 @@ export default function Resources() {
         frameworks. Throughout my career, I've worked on a variety of projects ranging from e-commerce 
         platforms to social media applications, and have gained expertise in front-end development, back-end 
         development, and database management. I'm always on the lookout for new challenges and opportunities 
-        to learn and grow as a developer. When I'm not coding, you can find me hiking in the mountains or 
+        to learn and grow as a developer. When I'm not coding, you can find me rock climbing, playing pool, or 
         experimenting with new recipes in the kitchen.
         </p>
 
