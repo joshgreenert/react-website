@@ -76,9 +76,14 @@ display: none;
 display: none;
 }
 
+/* Mobile CSS */ 
 @media screen and (max-width: 960px) {
 .NavbarItems {
     position: relative;
+}
+
+.navbar-container {
+    height: 90px;
 }
 
 .nav-menu {
