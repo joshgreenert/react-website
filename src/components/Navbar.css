@@ -86,6 +86,10 @@ display: none;
     height: 90px;
 }
 
+.navbar {
+    height: 90px;
+}
+
 .nav-menu {
     display: flex;
     flex-direction: column;

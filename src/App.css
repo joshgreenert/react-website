@@ -160,3 +160,15 @@ table a:hover {
   color: #2980b9;
   text-decoration: underline;
 }
+
+/* Mobile CSS */ 
+@media screen and (max-width: 960px) {
+  .githubImage{
+    height: auto;
+    width: 100%;
+    z-index: -999;
+    position:absolute;
+    clip-path: none;
+  }
+}
+  
