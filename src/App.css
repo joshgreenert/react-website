@@ -169,6 +169,7 @@ table a:hover {
     z-index: -999;
     position:absolute;
     clip-path: none;
+    top: 80px;
   }
 }
   
